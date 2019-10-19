@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="159dp"
+        android:layout_height="191dp"
+        app:srcCompat="@drawable/user" />
+
+    <EditText
+        android:id="@+id/edtNomeCompletoCad"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Nome Completo"
+        />
+
+    <EditText
+        android:id="@+id/edtEmailCad"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        />
+
+    <EditText
+        android:id="@+id/edtSenhaCad"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        />
+
+
+    <Button
+        android:id="@+id/btnCadastrarCad"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="115dp"
+        android:layout_height="118dp"
+        app:srcCompat="@drawable/tarefa" />
+
+
+    <EditText
+        android:id="@+id/edtTituloTarefa"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Título da tarefa"
+        />
+
+    <EditText
+        android:id="@+id/edtDescricaoTarefa"
+        android:layout_width="300dp"
+        android:layout_height="200sp"
+        android:hint="Descrição da tarefa"
+        android:inputType="text|textMultiLine"
+        android:gravity="left|top"
+
+        />
+
+    <Button
+        android:id="@+id/btnCadastrarTarefa"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Tarefa"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+
+</LinearLayout>

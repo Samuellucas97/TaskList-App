@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_cadastrar"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Cadastrar"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_concluida"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:title="Concluir Tarefas"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_sair"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="Sair"
+        app:showAsAction="never" />
+</menu>
